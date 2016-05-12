@@ -2684,10 +2684,10 @@ body[class^="/scripts/videos"] .subnav .videos a,
 body[class^="/scripts/install"] .subnav .install a,
 body[class^="/scripts/whatsnew"] .subnav .new a,
 body[class^="/scripts/comparison"] .subnav .compare a,
-body[class^="/mac/index"] .subnav .shortcuts a,
+body[class^="/mac/shortcuts"] .subnav .shortcuts a,
+body[class^="/mac/intellij"] .subnav .intellij a ,
 body[class^="/mac/multitouch"] .subnav .gestures a,
-body[class^="/mac/tips"] .subnav .tips a,
-body[class^="/mac/recommend"] .subnav .apps a {
+body[class^="/mac/tips"] .subnav .tips a {
     background: #fff;
     color: #000;
     margin: 0 .4em;
