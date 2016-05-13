@@ -12,22 +12,16 @@
 	<script src="js/jquery.min.js"></script>
 	<script> 
     	$(function(){
+      		$("#headerContent").load("header.html"); 
       		$("#symbolsContent").load("symbols.html"); 
+      		$("#footerContent").load("footer.html"); 
     	});
     </script> 
 </head>
 
 <body class="/mac/intellij">
 
-<div class="page-header">
-	<nav class="page-nav clearfix" role="navigation">
-		<div class="content-wrapper main-nav"></div>
-	</nav>
-
-	<header>
-		<div class="content-wrapper"></div>
-	</header>
-</div>
+<div id="headerContent"></div>
 
 <main class="page-main" role="main" id="mac-keystrokes">
 	<nav class="subnav">
@@ -350,16 +344,7 @@
 	<!-- /.content-wrapper -->
 </main>
 
-<footer class="page-footer">
-    <div class="content-wrapper">
-            <div class="page-footer-social">
-                    <p class="line-behind"><span>Empowering People Through&nbsp;Technology</span></p>
-            </div>
-            <div class="page-footer-about">
-                    <p></p>
-            </div>
-    </div>
-</footer>
+<div id="footerContent"></div>
 
 <script src="js/mac.min.js"></script>
 
