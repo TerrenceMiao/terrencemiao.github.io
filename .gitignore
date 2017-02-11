@@ -1,0 +1,5 @@
+# Don’t commit the following directories
+.idea/
+
+# Or the files
+*.swp
