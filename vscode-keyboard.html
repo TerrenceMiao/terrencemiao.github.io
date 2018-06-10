@@ -5,7 +5,7 @@
 	<meta name="description" content="Great, concise Mac Keyboards, keystrokes, tips, tricks, and more.">
 	<meta name="keywords" content="Mac Keyboards, Keystrokes, Shortcuts, Tips and Tricks">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<title>IntelliJ Keyboard</title>
+	<title>VSCode Keyboard</title>
 	<link rel="stylesheet" href="stylesheets/fonts.css">
 	<link rel="stylesheet" href="stylesheets/mac.css">
 	<link rel="stylesheet" href="stylesheets/key.css">
@@ -19,7 +19,7 @@
     </script>
 </head>
 
-<body class="/mac/intellij">
+<body class="/mac/vscode">
 
 <div id="headerContent"></div>
 
@@ -27,8 +27,8 @@
 	<nav class="subnav">
 		<ul>
 			<li class="shortcuts"><a href="mac-keyboard.html">Common Shortcuts</a></li>
-			<li class="intellij"><a href="">IntelliJ Shortcuts</a></li>
-			<li class="vscode"><a href="vscode-keyboard.html">VSCode Shortcuts</a></li>
+			<li class="intellij"><a href="intellij-keyboard.html">IntelliJ Shortcuts</a></li>
+			<li class="vscode"><a href="">VSCode Shortcuts</a></li>
 			<li class="gestures"><a href="#">Multi-Touch Gestures</a></li>
 			<li class="tips"><a href="#">Tips &amp; Tricks</a></li>
 		</ul>
@@ -40,7 +40,8 @@
 				<h4>Jump to Category</h4>
 				<ul>
 					<li class=""><a href="#symbols">Symbols</a></li>
-					<li class=""><a href="#editing">Editing</a></li>
+					<li class=""><a href="#general">General</a></li>
+					<li class=""><a href="#basic-editing">Basic Editing</a></li>
 					<li class=""><a href="#search-replace">Search / Replace</a></li>
 					<li class=""><a href="#usage-search">Usage Search</a></li>
 					<li class=""><a href="#compile-and-run">Compile and Run</a></li>
@@ -49,7 +50,6 @@
 					<li class=""><a href="#refactoring">Refactoring</a></li>
 					<li class=""><a href="#vcs-local-history">VCS / Local History</a></li>
 					<li class=""><a href="#live-templates">Live Templates</a></li>
-					<li class=""><a href="#general">General</a></li>
 					<li class=""><a href="#select-text">Select Text</a></li>
 					<li class=""><a href="#extra">Extra</a></li>
 				</ul>
@@ -60,57 +60,52 @@
 
 			<div id="symbolsContent"></div>
 
-			<div class="section" id="editing">
-				<h2><span class="table-head-text">Editing</span><span class="section-icon"></span></h2>
+			<div class="section" id="general">
+				<h2><span class="table-head-text">General</span><span class="section-icon"></span></h2>
 				<table>
 					<thead>
 						<tr><th>Action</th><th>Keystroke</th></tr>
 					</thead>
 					<tbody>
-						<tr><td>Basic code completion (the name of an class, method or variable)</td><td><span class="kbd">⌃</span> + <span class="kbd">␣</span></td></tr>
-						<tr><td>Smart code completion (filters the list of methods and variables by expected type)</td><td><span class="kbd">⌃</span> + <span class="kbd">⇧</span> + <span class="kbd">␣</span></td></tr>
-						<tr><td>Class name completion (the name of any project class independently of current imports)</td><td><span class="kbd">⌃</span> + <span class="kbd">⌥</span> + <span class="kbd">␣</span></td></tr>
-						<tr><td>Parameter info (within method call arguments)</td><td><span class="kbd">⌘</span> + <span class="kbd">P</span></td></tr>
-						<tr><td>Quick documentation lookup</td><td><span class="kbd">⌃</span> + <span class="kbd">J</span> or <b>mid button click</b></td></tr>
-						<tr><td>External Doc</td><td><span class="kbd">⇧</span> + <span class="kbd">F1</span></td></tr>
-						<tr><td>Brief Info</td><td><span class="kbd">⌘</span> + <b>mouse over code</b></td></tr>
-						<tr><td>Show descriptions of error or warning at caret</td><td><span class="kbd">⌘</span> + <span class="kbd">F1</span></td></tr>
-						<tr><td>Generate code ... (Getters, Setters, Constructors, hashCode / equals, toString)</td><td><span class="kbd">⌘</span> + <span class="kbd">N</span> | <span class="kbd">⌃</span> + <span class="kbd">↩</span> | <span class="kbd">⌃</span> + <span class="kbd">N</span></td></tr>
-						<tr><td>Override methods</td><td><span class="kbd">⌃</span> + <span class="kbd">O</span></td></tr>
-						<tr><td>Implement methods</td><td><span class="kbd">⌃</span> + <span class="kbd">I</span></td></tr>
-						<tr><td>Surround with ... (if .. else, try .. catch, for, synchronized, etc.)</td><td><span class="kbd">⌘</span> + <span class="kbd">⌥</span> + <span class="kbd">T</span></td></tr>
-						<tr><td>Comment/uncomment with line comment</td><td><span class="kbd">⌘</span> + <span class="kbd">/</span></td></tr>
-						<tr><td>Comment/uncomment with block comment</td><td><span class="kbd">⌘</span> + <span class="kbd">⌥</span> + <span class="kbd">/</span></td></tr>
-						<tr><td>Select successively increasing code word, blocks, whole sentence</td><td><span class="kbd">⌥</span> + <span class="kbd">↑</span></td></tr>
-						<tr><td>Decrease current selection to previous state</td><td><span class="kbd">⌥</span> + <span class="kbd">↓</span></td></tr>
-						<tr><td>Context info</td><td><span class="kbd">⌃</span> + <span class="kbd">⇧</span> + <span class="kbd">Q</span></td></tr>
-						<tr><td>Show intention actions and quick-fixes</td><td><span class="kbd">⌥</span> + <span class="kbd">↩</span></td></tr>
-						<tr><td>Reformat code</td><td><span class="kbd">⌘</span> + <span class="kbd">⌥</span> + <span class="kbd">L</span></td></tr>
-						<tr><td>Optimise imports</td><td><span class="kbd">⌃</span> + <span class="kbd">⌥</span> + <span class="kbd">O</span></td></tr>
-						<tr><td>Auto-indent line(s)</td><td><span class="kbd">⌃</span> + <span class="kbd">⌥</span> + <span class="kbd">I</span></td></tr>
-						<tr><td>Indent selected lines</td><td><span class="kbd">⇥</span></td></tr>
-						<tr><td>Unindent selected lines</td><td><span class="kbd">⇧</span> + <span class="kbd">⇤</span></td></tr>
-						<tr><td>Cut current line or selected block to clipboard</td><td><span class="kbd">⌘</span> + <span class="kbd">X</span></td></tr>
-						<tr><td>Copy current line or selected block to clipboard</td><td><span class="kbd">⌘</span> + <span class="kbd">C</span></td></tr>
-						<tr><td>Paste from clipboard</td><td><span class="kbd">⌘</span> + <span class="kbd">V</span></td></tr>
-						<tr><td>Paste from recent buffers ...</td><td><span class="kbd">⌘</span> + <span class="kbd">⇧</span> + <span class="kbd">V</span></td></tr>
-						<tr><td>Duplicate current line or selected block</td><td><span class="kbd">⌘</span> + <span class="kbd">D</span></td></tr>
-						<tr><td>Delete line at caret</td><td><span class="kbd">⌘</span> + <span class="kbd">⌫</span></td></tr>
-						<tr><td>Smart line join</td><td><span class="kbd">⌃</span> + <span class="kbd">⇧</span> + <span class="kbd">J</span></td></tr>
-						<tr><td>Smart line split</td><td><span class="kbd">⌘</span> + <span class="kbd">↩</span></td></tr>
-						<tr><td>Start new line</td><td><span class="kbd">⇧</span> + <span class="kbd">↩</span></td></tr>
-						<tr><td>Toggle case for word at caret or selected block</td><td><span class="kbd">⌘</span> + <span class="kbd">⇧</span> + <span class="kbd">U</span></td></tr>
-						<tr><td>Select till code block end</td><td><span class="kbd">⌘</span> + <span class="kbd">⇧</span> + <span class="kbd">]</span></td></tr>
-						<tr><td>Select till code block start</td><td><span class="kbd">⌘</span> + <span class="kbd">⇧</span> + <span class="kbd">[</span></td></tr>
-						<tr><td>Delete to word end</td><td><span class="kbd">⌥</span> + <span class="kbd">⌦</span></td></tr>
-						<tr><td>Delete to word start</td><td><span class="kbd">⌥</span> + <span class="kbd">⌫</span></td></tr>
-						<tr><td>Expand code block</td><td><span class="kbd">⌘</span> + <span class="kbd">+</span></td></tr>
-						<tr><td>Collapse code block</td><td><span class="kbd">⌘</span> + <span class="kbd">-</span></td></tr>
-						<tr><td>Expand all</td><td><span class="kbd">⌘</span> + <span class="kbd">⇧</span> + <span class="kbd">+</span></td></tr>
-						<tr><td>Collapse all</td><td><span class="kbd">⌘</span> + <span class="kbd">⇧</span> + <span class="kbd">-</span></td></tr>
-						<tr><td>Close active editor tab</td><td><span class="kbd">⌘</span> + <span class="kbd">W</span></td></tr>
-						<tr><td>Move caret line up</td><td><span class="kbd">⌘</span> + <span class="kbd">⇧</span> + <span class="kbd">↑</span> | <span class="kbd">⌥</span> + <span class="kbd">⇧</span> + <span class="kbd">↑</span></td></tr>
-						<tr><td>Move caret line down</td><td><span class="kbd">⌘</span> + <span class="kbd">⇧</span> + <span class="kbd">↓</span> | <span class="kbd">⌥</span> + <span class="kbd">⇧</span> + <span class="kbd">↓</span></td></tr>
+						<tr><td>Show Command Palette</td><td><span class="kbd">⇧</span> + <span class="kbd">⌘</span> + <span class="kbd">P</span> | <span class="kbd">F1</span></td></tr>
+						<tr><td>Quick Open, Go to File</td><td><span class="kbd">⌘</span> + <span class="kbd">P</span></td></tr>
+						<tr><td>New window / instance</td><td><span class="kbd">⇧</span> + <span class="kbd">⌘</span> + <span class="kbd">N</span></td></tr>
+						<tr><td>Close window / instance</td><td><span class="kbd">⌘</span> + <span class="kbd">W</span></td></tr>
+						<tr><td>User Settings</td><td><span class="kbd">⌘</span> + <span class="kbd">,</span></td></tr>
+						<tr><td>Keyboard Shortcuts</td><td><span class="kbd">⌘</span> + <span class="kbd">K</span> <span class="kbd">⌘</span> + <span class="kbd">S</span></td></tr>
+					</tbody>
+				</table>
+			</div>
+
+			<div class="section" id="basic-editing">
+				<h2><span class="table-head-text">Basic Editing</span><span class="section-icon"></span></h2>
+				<table>
+					<thead>
+						<tr><th>Action</th><th>Keystroke</th></tr>
+					</thead>
+					<tbody>
+						<tr><td>Cut line (empty selection)</td><td><span class="kbd">⌘</span> + <span class="kbd">X</span></td></tr>
+						<tr><td>Copy line (empty selection)</td><td><span class="kbd">⌘</span> + <span class="kbd">C</span></td></tr>
+						<tr><td>Move line down / up</td><td><span class="kbd">⌥</span> + <span class="kbd">↓</span> / <span class="kbd">⌥</span> + <span class="kbd">↑</span></td></tr>
+						<tr><td>Copy line down / up</td><td><span class="kbd">⇧</span> + <span class="kbd">⌥</span> + <span class="kbd">↓</span> / <span class="kbd">⇧</span> + <span class="kbd">⌥</span> + <span class="kbd">↑</span></td></tr>
+						<tr><td>Delete line</td><td><span class="kbd">⇧</span> + <span class="kbd">⌘</span> + <span class="kbd">K</span></td></tr>
+						<tr><td>Insert line below / above</td><td><span class="kbd">⌘</span> + <span class="kbd">↩</span> / <span class="kbd">⇧</span> + <span class="kbd">⌘</span> + <span class="kbd">↩</span></td></tr>
+						<tr><td>Jump to matching bracket</td><td><span class="kbd">⇧</span> + <span class="kbd">⌘</span> + <span class="kbd">\</span></td></tr>
+						<tr><td>Indent / outdent line</td><td><span class="kbd">⌘</span> + <span class="kbd">]</span> / <span class="kbd">⌘</span> + <span class="kbd">[</span></td></tr>
+						<tr><td>Go to begining / end of line</td><td><span class="kbd">Home</span> / <span class="kbd">End</span></td></tr>
+						<tr><td>Go to begining / end of file</td><td><span class="kbd">⌘</span> + <span class="kbd">↑</span> / <span class="kbd">⌘</span> + <span class="kbd">↓</span></td></tr>
+						<tr><td>Scroll line up / down</td><td><span class="kbd">⌃</span> + <span class="kbd">PgUp</span> / <span class="kbd">⌃</span> + <span class="kbd">PgDn</span></td></tr>
+						<tr><td>Scroll page up / down</td><td><span class="kbd">⌘</span> + <span class="kbd">PgUp</span> / <span class="kbd">⌘</span> + <span class="kbd">PgDn</span></td></tr>
+						<tr><td>Fold / unfold region</td><td><span class="kbd">⌥</span> + <span class="kbd">⌘</span> + <span class="kbd">[</span> / <span class="kbd">⌥</span> + <span class="kbd">⌘</span> + <span class="kbd">]</span></td></tr>
+						<tr><td>Fold all subregions</td><td><span class="kbd">⌘</span> + <span class="kbd">K</span> <span class="kbd">⌘</span> + <span class="kbd">[</span></td></tr>
+						<tr><td>Unfold all subregions</td><td><span class="kbd">⌘</span> + <span class="kbd">K</span> <span class="kbd">⌘</span> + <span class="kbd">]</span></td></tr>
+						<tr><td>Fold all regions</td><td><span class="kbd">⌘</span> + <span class="kbd">K</span> <span class="kbd">⌘</span> + <span class="kbd">0</span></td></tr>
+						<tr><td>Unfold all regions</td><td><span class="kbd">⌘</span> + <span class="kbd">K</span> <span class="kbd">⌘</span> + <span class="kbd">J</span></td></tr>
+						<tr><td>Add line comment</td><td><span class="kbd">⌘</span> + <span class="kbd">K</span> <span class="kbd">⌘</span> + <span class="kbd">C</span></td></tr>
+						<tr><td>Remove line comment</td><td><span class="kbd">⌘</span> + <span class="kbd">K</span> <span class="kbd">⌘</span> + <span class="kbd">U</span></td></tr>
+						<tr><td>Toggle line comment</td><td><span class="kbd">⌘</span> + <span class="kbd">/</span></td></tr>
+						<tr><td>Toggle block comment</td><td><span class="kbd">⇧</span> + <span class="kbd">⌥</span> + <span class="kbd">A</span></td></tr>
+						<tr><td>Toggle word wrap</td><td><span class="kbd">⌥</span> + <span class="kbd">Z</span></td></tr>
 					</tbody>
 				</table>
 			</div>
@@ -291,29 +286,7 @@
 				</table>
 			</div>
 
-			<div class="section" id="general">
-				<h2><span class="table-head-text">General</span><span class="section-icon"></span></h2>
-				<table>
-					<thead>
-						<tr><th>Action</th><th>Keystroke</th></tr>
-					</thead>
-					<tbody>
-						<tr><td>Open corresponding tool window</td><td><span class="kbd">⌘</span> + <span class="kbd">0</span> ... <span class="kbd">⌘</span> + <span class="kbd">9</span></td></tr>
-						<tr><td>Save all</td><td><span class="kbd">⌘</span> + <span class="kbd">S</span></td></tr>
-						<tr><td>Synchronise</td><td><span class="kbd">⌘</span> + <span class="kbd">⌥</span> + <span class="kbd">Y</span></td></tr>
-						<tr><td>Toggle full screen mode</td><td><span class="kbd">⌃</span> + <span class="kbd">⌘</span> + <span class="kbd">F</span></td></tr>
-						<tr><td>Toggle maximizing editor</td><td><span class="kbd">⌘</span> + <span class="kbd">⇧</span> + <span class="kbd">F12</span></td></tr>
-						<tr><td>Add to favourites</td><td><span class="kbd">⌥</span> + <span class="kbd">⇧</span> + <span class="kbd">F</span></td></tr>
-						<tr><td>Inspect current file with current profile</td><td><span class="kbd">⌥</span> + <span class="kbd">⇧</span> + <span class="kbd">I</span></td></tr>
-						<tr><td>Quick switch current scheme</td><td><span class="kbd">⌃</span> + <span class="kbd">`</span></td></tr>
-						<tr><td>Open Settings dialog</td><td><span class="kbd">⌘</span> + <span class="kbd">,</span></td></tr>
-						<tr><td>Open Project Structure dialog</td><td><span class="kbd">⌘</span> + <span class="kbd">;</span></td></tr>
-						<tr><td>Find Action</td><td><span class="kbd">⇧</span> + <span class="kbd">⌘</span> + <span class="kbd">A</span></td></tr>
-						<tr><td>Quick switch current scheme</td><td><span class="kbd">⌃</span> + <span class="kbd">`</span></td></tr>
-						<tr><td>Switch between tabs and tool window</td><td><span class="kbd">⌃</span> + <span class="kbd">⇥</span></td></tr>
-					</tbody>
-				</table>
-			</div>
+
 
 			<div class="section" id="select-text">
 				<h2><span class="table-head-text">Select Text</span><span class="section-icon"></span></h2>

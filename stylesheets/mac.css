@@ -2686,6 +2686,7 @@ body[class^="/scripts/whatsnew"] .subnav .new a,
 body[class^="/scripts/comparison"] .subnav .compare a,
 body[class^="/mac/shortcuts"] .subnav .shortcuts a,
 body[class^="/mac/intellij"] .subnav .intellij a ,
+body[class^="/mac/vscode"] .subnav .vscode a ,
 body[class^="/mac/multitouch"] .subnav .gestures a,
 body[class^="/mac/tips"] .subnav .tips a {
     background: #fff;
