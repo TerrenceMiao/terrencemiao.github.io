@@ -1947,6 +1947,17 @@
   "tags": null,
   "updated": null
 },{
+  "id": "kubernetes",
+  "title": "Kubernetes CLI",
+  "url": "/kubernetes",
+  "category": "Devops",
+  "keywords": null,
+  "content_html": "<h3 id=\"ec2\">EC2</h3>\n\n<pre><code>aws ec2 describe-instances\naws ec2 start-instances --instance-ids i-12345678c\n</code></pre>\n\n<h3 id=\"s3\">S3</h3>\n\n<pre><code>aws s3 ls s3://mybucket\naws s3 cp myfolder s3://mybucket/folder --recursive\naws s3 sync myfolder s3://mybucket/folder --exclude *.tmp\n</code></pre>\n\n<h3 id=\"ecs\">ECS</h3>\n\n<pre><code>aws ecs create-cluster\n  --cluster-name=NAME\n  --generate-cli-skeleton\n\naws ecs create-service\n</code></pre>\n\n<h3 id=\"homebrew\">Homebrew</h3>\n\n<pre><code>brew install awscli\naws configure\n</code></pre>\n\n<h2 id=\"elastic-beanstalk\">Elastic Beanstalk</h2>\n\n<h3 id=\"configuration\">Configuration</h3>\n\n<ul>\n  <li>.elasticbeanstalk/config.yml - application config</li>\n  <li>.elasticbeanstalk/dev-env.env.yml - environment config</li>\n</ul>\n\n<pre><code>eb config\n</code></pre>\n\n<p>See: <a href=\"http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/command-options.html\">http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/command-options.html</a></p>\n\n<h2 id=\"ebextensions\">ebextensions</h2>\n\n<ul>\n  <li><a href=\"http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/customize-containers.html\">http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/customize-containers.html</a></li>\n  <li><a href=\"http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/customize-containers-ec2.html\">http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/customize-containers-ec2.html</a></li>\n</ul>\n\n<h2 id=\"also-see\">Also see</h2>\n\n<ul>\n  <li><a href=\"https://aws.amazon.com/cli/\">AWS CLI</a></li>\n  <li><a href=\"http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html\">Documentation</a></li>\n  <li><a href=\"http://docs.aws.amazon.com/cli/latest/reference/#available-services\">All commands</a></li>\n</ul>",
+  "intro_html": "",
+  "description_html": "",
+  "tags": null,
+  "updated": null
+},{
   "id": "layout-thrashing",
   "title": "Layout thrashing",
   "url": "/layout-thrashing",
