@@ -1,0 +1,6 @@
+"title","description","url","license","image_views","creation_time.formatted","modification_time.formatted","geo_data.latitude","geo_data.longitude","geo_data_exif.latitude","geo_data_exif.longitude","tags","people.name","people.email","comments.comment","comments.user_id","comments.email","media_key","hex_photo_id","upload_ip","status","liking_user_ids","album_id","exif.camera_make","exif.camera_model","exif.cell_width","exif.cell_length"
+"reactive-manifesto.png","Forget Agile Manifesto, which distorted by the peanut-size-brain industry ""gurus"".
+
+Build Reactive Systems based on four principles: Responsive, Resilient, Elastic and Message Driven.
+
+Read more - http://www.reactivemanifesto.org/","https://lh3.googleusercontent.com/-fXUV9vXuO9E/Vgx2m6rWXRI/AAAAAAAAPC0/HO8JC4Le1fgT5H9KbmgGgf3T5AZJmFEagCLABGAYYCw/s0-d/reactive-manifesto.png","","12791","Sep 30, 2015, 11:56:11 PM UTC","Feb 5, 2019, 8:51:53 PM UTC","0.0","0.0","0.0","0.0","","","","Sounds like aws lambda would fit this ideal nicely; In a Reactive System, <b>Elastic</b> meaning system can scale up and down with demand; <b>Resilient</b> against failures that are inevitable in large distributed systems; <b>Responsive</b> to service requests even if failures limit the ability to deliver services; and <b>Driven by Events</b> from the world around them.","; ","; ","","","","","","","","","0","0"

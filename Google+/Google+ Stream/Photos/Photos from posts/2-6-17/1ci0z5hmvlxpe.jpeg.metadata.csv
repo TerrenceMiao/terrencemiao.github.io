@@ -1,0 +1,22 @@
+"title","description","url","license","image_views","creation_time.formatted","modification_time.formatted","geo_data.latitude","geo_data.longitude","geo_data_exif.latitude","geo_data_exif.longitude","tags","people.name","people.email","comments.comment","comments.user_id","comments.email","media_key","hex_photo_id","upload_ip","status","liking_user_ids","album_id","exif.camera_make","exif.camera_model","exif.cell_width","exif.cell_length"
+"Angular vs. React.jpeg","I think what you asking here is why would i use smaller components like the view-only library react (probably with some event module like flux) over a full-fledged MVC framework like angular?
+
+• Small components usually do one thing very well.
+
+• There will never be a perfect framework so you can just hack the most relevant features together using npm.
+
+• Small libraries have simple documentation and they are easy to set up and use.
+
+• Any problems and there’s no waiting for the next release of the entire framework, you simply throw up an issue, the authors fix it, push it and then bam it’s on npm for everyone else and no other components have been disturbed.
+
+• If you find you don’t like the templating language or error handling, you don’t have to rethink the entire project, you just hot-swap the component for another and you’re on your way again.
+
+• By using small libraries – components with a dedicated purpose and a small surface area – it becomes possible to pick and mix, to swap parts of our front end stack out if and when they are superceded
+
+• New projects can replace only the parts that matter, whilst core functionality whose designs are settled – routing APIs, say – can stay exactly the same between the years.
+
+• You can move your legacy projects to new technologies incrementally, rather than rewriting everything, providing you stick to good practices and wrap those libraries carefully.
+
+• When different problems are answered by different libraries, their solutions can compete directly. If Framework A does X well and Y badly, compared to Framework B’s great Y and shaky X, you’re stuck. But if Library A and B both try and do X, they can compete in a direct fashion in discrete and measurable ways.
+
+https://www.quora.com/Why-would-I-use-React-over-AngularJS","https://lh3.googleusercontent.com/-6nHyxLc9kxs/WJekccd-hOI/AAAAAAAASHE/dsBrnfFKtH0bFsZRhE1_NJplvsrR0GSFACLABGAYYCw/s0-d/Angular%2Bvs.%2BReact.jpeg","","0","Feb 5, 2017, 10:17:21 PM UTC","Feb 5, 2019, 8:51:56 PM UTC","0.0","0.0","0.0","0.0","","","","It&#39;s a good one. Google sent me here when I&#39;m looking at Angular vs React :); <span class=""proflinkWrapper""><span class=""proflinkPrefix"">+</span><a class=""proflink"" href=""https://plus.google.com/116293708971920237289"" oid=""116293708971920237289"">Peng Han</a></span> you&#39;ve found the right place :-)","; ","; ","","","","","","","","","0","0"

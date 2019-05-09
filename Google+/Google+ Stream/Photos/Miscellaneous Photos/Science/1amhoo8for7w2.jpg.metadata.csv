@@ -1,0 +1,11 @@
+"title","description","url","license","image_views","creation_time.formatted","modification_time.formatted","geo_data.latitude","geo_data.longitude","geo_data_exif.latitude","geo_data_exif.longitude","tags","people.name","people.email","comments.comment","comments.user_id","comments.email","media_key","hex_photo_id","upload_ip","status","liking_user_ids","album_id","exif.camera_make","exif.camera_model","exif.cell_width","exif.cell_length"
+"GPS.jpg","Nuclear-powered GPS trackers
+
+Don’t worry, the nuclear material is for determining velocity, not powering anything or exploding. The military has trouble directing vehicles and missiles in areas where GPS signals might be blocked or scrambled, like when submarines are underwater. Chip-Scale Combinatorial Atomic Navigator (C-SCAN) is very technical, but it would allow precise navigation without a GPS signal by precisely measuring atoms from nuclear decay.
+
+Read more:
+
+http://www.wearethemighty.com/weird-darpa-projects-2015-04
+http://gpsworld.com/
+http://mems.eng.uci.edu/research/chip-scale-combinatorial-atomic-navigator-cscan/
+http://mems.eng.uci.edu/files/2013/09/GPS0813_ExpAdv_Shkel_v3.pdf","https://lh3.googleusercontent.com/-1G3UpPgXocU/VSpmW_e0lLI/AAAAAAAAOIk/tdOYZS8KUpg5WimtkhGVGuCzP3O3gwcZACLABGAYYCw/s0-d/GPS.jpg","","8799","Apr 12, 2015, 12:34:35 PM UTC","Feb 5, 2019, 8:51:53 PM UTC","0.0","0.0","0.0","0.0","","","","&quot;When GPS is not available gyroscopes provide orientation, accelerometers provide position and oscillators provide timing. The new C-SCAN effort focuses on replacing bulky gyroscopes with a new inertial measurement unit (IMU) that is smaller, less expensive due to foundry fabrication and yields better performance.&quot;<br /><br /><a href=""http://www.darpa.mil/NewsEvents/Releases/2012/04/16.aspx"" class=""ot-anchor"">http://www.darpa.mil/NewsEvents/Releases/2012/04/16.aspx</a>","","","","","","","","","","","0","0"

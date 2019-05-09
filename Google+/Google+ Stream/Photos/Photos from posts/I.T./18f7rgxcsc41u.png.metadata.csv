@@ -1,0 +1,18 @@
+"title","description","url","license","image_views","creation_time.formatted","modification_time.formatted","geo_data.latitude","geo_data.longitude","geo_data_exif.latitude","geo_data_exif.longitude","tags","people.name","people.email","comments.comment","comments.user_id","comments.email","media_key","hex_photo_id","upload_ip","status","liking_user_ids","album_id","exif.camera_make","exif.camera_model","exif.cell_width","exif.cell_length"
+"mainform.png","A good question asked today how to test and verify the email our sales team harasses our customers.
+
+As a general practice, we can set up mail host pointing to company SMTP server. However, if company mail system is running on Microsoft Exchange, there will be too much hassle to do so. In addition, I.T. Security Nazi will guillotine anyone dare to do that.
+
+Another approach is setting up a full blow version SMTP server on localhost, e.g. James from Apache Tribe - http://james.apache.org/, not that +James Gemmell James from Great British. But is it too heavy if you only want to see what the email looks like?
+
+Remembering +Dean Budd Deano suggested fake SMTP server Dumbster - http://quintanasoft.com/dumbster/ long time ago, as he got the idea when he was playing popular social online game Donkeyville. Dumbster is OK for developing SMTP based unit test, but you have to write codes to save the sent email to file system and open it and read it. Plus, Dumbster has such a silly name. It has been totally banned from developer's menu.
+
+Of course there is a smart guy with smart name called Wiser - https://code.google.com/p/subethasmtp/wiki/Wiser. But Wiser is dumped for the same reason as Dumbster - have to write codes.
+
+After a few googlings, then find this handy tool - smtp4dev. Basically, it's a solo executable file runs on Windows box, full SMTP protocol compatible, receives and stores email locally but doesn't deliver, sounds pretty good. Setting up bind ip address and listening port, the main window lists all the email received, clicking view on any email will automatically open Microsoft Outlook and let you read email in a proper email client.
+
+Having tested HTML formatted email, with attachment like attached bills in PDF format, works like a charm.
+
+Simply the best.
+
+Read more: http://smtp4dev.codeplex.com/","https://lh3.googleusercontent.com/-W9LjQsbOHQU/USSqklhh-4I/AAAAAAAAFxI/hHgybo9Ws78ZCq4lKiwNtbfZGVziutH_ACLABGAYYCw/s0-d/mainform.png","","874","Feb 20, 2013, 10:50:58 AM UTC","Feb 5, 2019, 8:51:47 PM UTC","0.0","0.0","0.0","0.0","","","","","","","","","","","","","","","0","0"

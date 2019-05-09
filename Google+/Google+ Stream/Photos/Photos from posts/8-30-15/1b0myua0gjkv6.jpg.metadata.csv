@@ -1,0 +1,10 @@
+"title","description","url","license","image_views","creation_time.formatted","modification_time.formatted","geo_data.latitude","geo_data.longitude","geo_data_exif.latitude","geo_data_exif.longitude","tags","people.name","people.email","comments.comment","comments.user_id","comments.email","media_key","hex_photo_id","upload_ip","status","liking_user_ids","album_id","exif.camera_make","exif.camera_model","exif.cell_width","exif.cell_length"
+"1024x640xintro-to-microservices8.jpg.pagespeed.ic.hIVJ76HcBu.jpg","API Gateway solves client side fragility issues like security, monitoring, data caching, load balancing and versioning.
+
+Service discovery is the key component in microservice's distributed system picture.  It becomes especially critical as more services deployed, and service location change quite frequently due to scaling in a live system, as well as hosts failing and being replaced.
+
+Message queue reduces the coupling when one microservice needs to interconnect another microservice directly, makes one microservice have less degree of direct knowledge that one possible.
+
+Read more:
+http://jasonwilder.com/blog/2014/02/04/service-discovery-in-the-cloud/
+http://ryanjbaxter.com/2015/07/22/using-microservices-to-build-cloud-native-applications-part-2/     ","https://lh3.googleusercontent.com/-enIzY5XmbRU/VeIn4h6kIGI/AAAAAAAAOzY/OSVEML3Ij_ModMG5VndtmzcDNizBG-ErwCLABGAYYCw/s0-d/1024x640xintro-to-microservices8.jpg.pagespeed.ic.hIVJ76HcBu.jpg","","10806","Aug 29, 2015, 9:45:06 PM UTC","Feb 5, 2019, 8:51:53 PM UTC","0.0","0.0","0.0","0.0","","","","Hold on. What&#39;s that big IBM logo up the top? This isn&#39;t Websphere is it? 😉; <span class=""proflinkWrapper""><span class=""proflinkPrefix"">+</span><a class=""proflink"" href=""https://plus.google.com/117411118917273581736"" oid=""117411118917273581736"">Dean Budd</a></span>​ except IBM parts","; ","; ","","","","","","","","","0","0"
